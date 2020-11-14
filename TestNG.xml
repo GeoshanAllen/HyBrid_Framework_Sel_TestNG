@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HybridFramework">
+
+	<listeners>
+		<listener class-name="utilitiesV1.Reporting" />
+	</listeners>
+
+	<test name="Hybrid Framework Implementation">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			
+			<class name="testCasesV1.TC_LoginTest3"></class>
+		</classes>
+	</test>
+</suite>
